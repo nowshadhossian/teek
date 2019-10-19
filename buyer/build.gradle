@@ -17,8 +17,12 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '2.1.1.RELEASE'
-/*    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.6.RELEASE'*/
-  /*  compile('org.springframework.cloud:spring-cloud-starter-netflix-hystrix')   */
-    compile('org.springframework.cloud:spring-cloud-starter-hystrix')
+// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-hystrix
+/*    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.7.RELEASE'*/
+
+// https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-hystrix
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-hystrix', version: '2.1.3.RELEASE'
+
+ /*   compile('org.springframework.cloud:spring-cloud-starter-hystrix')*/
 
 }
