@@ -4,6 +4,12 @@ http://localhost:8181/my-supplier ---> buyer calls supplier
 http://localhost:7777/ ---> Eureka runs
 http://supplier-service/get ---> buyer calls supplier microservice like this. If this call fails Hystrix plays his roles
 
+##Zuul
+with zuul connected now buyer service is called with this url:
+http://localhost:8768/buyer/my-supplier
+the same url is accessed from
+http://localhost:8768/buyer-service/my-supplier
+
 
 ###Eureka
 multiple service instance is called via load balancer.
